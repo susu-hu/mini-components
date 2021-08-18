@@ -9,15 +9,16 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  克隆后微信开发者打开 ，选择自己的appid或者是测试号，（不要使用本人的appid,否则无法预览)
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  index:首页，有明确的页面导航，每个组件的位置，以及相关参数，皆在页面中表明（效果页面+组件详情介绍页面)
+2.  组件一：canvas2d-ring(canvas2d--圆环进度条）Canvas2D接口（type="2d"）,支持同层渲染的一个圆环进度条。（wx.createCanvasContext已废弃）
+
+#### 效果截图
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0818/142518_50f3af98_8576727.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0818/142602_d2417873_8576727.png "屏幕截图.png")
 
 #### 参与贡献
 
