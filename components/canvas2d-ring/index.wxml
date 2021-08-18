@@ -1,0 +1,12 @@
+<!--components/canvas2d-ring/index.wxml-->
+<canvas style="width:{{canvasWidth}}px;height:{{canvasWidth}}px;" type="2d"  id="myCanvas" >
+  <view class="circle-bar-wrap" style="height:{{canvasWidth}}px;">
+    <view class="font">
+      {{title}}
+    </view>
+    <view class="val" style="color: {{valueColor}}; margin-top:{{isMarginTop?'10':'0'}}rpx">
+      {{value}} {{suffix}}
+    </view>
+  </view>
+</canvas>
+

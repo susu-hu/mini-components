@@ -1,0 +1,10 @@
+/* pages/canvas/index.wxss */
+.new_ca{
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+}
+.new_ca canvas{
+  width: 220px;
+  height: 220px;
+}

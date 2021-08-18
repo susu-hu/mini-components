@@ -1,0 +1,12 @@
+<!--pages/canvas/index.wxml-->
+<!--   -->
+
+
+
+<block wx:for="{{data_list}}" wx:key="data_list">
+  <canvas2d-ring type="2d" id="can{{index}}" canvasWidth="{{80}}" value="{{item.value}}"  lineWidth="{{3}}"  title="{{}}"></canvas2d-ring>
+</block>
+
+<view class="new_ca">
+  <canvas type="2d"  id="myCanvas"  style="width:{{canvasW}}px;height: {{canvasH}}px;"  ></canvas>
+</view>
