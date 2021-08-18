@@ -1,0 +1,2 @@
+<!--pages/canvas2d/canvasGW.wxml-->
+<web-view src="{{url}}"></web-view>

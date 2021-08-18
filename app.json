@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/canvas2d/index",
-    "pages/canvas2d/detail"
+    "pages/canvas2d/detail",
+    "pages/canvas2d/canvasGW"
   ],
   "window": {
     "backgroundTextStyle": "light",

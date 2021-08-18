@@ -18,3 +18,9 @@
 .color{
   color: rgb(45, 107, 201);
 }
+.link{
+  word-break: break-all;
+}
+.link:hover{
+  color: rgb(81, 201, 45);
+}

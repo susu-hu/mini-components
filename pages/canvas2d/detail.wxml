@@ -35,5 +35,9 @@
   <view class="var c_item">
     <image src="/img/canvas2d.png"></image>
   </view>
+  <view class="c_item color">canvas官网：</view>
+  <view class="var c_item">
+   <view class="link" catchtap="toGW"> https://developers.weixin.qq.com/miniprogram/dev/component/canvas.html</view>
+  </view>
 </view>
 
