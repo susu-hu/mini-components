@@ -1,0 +1,22 @@
+/* pages/subPack/canvas2d/index.wxss */
+page{
+  background: #fff;
+}
+.head_box{
+  flex-wrap: wrap;
+}
+.h_item{
+  margin-right: 120rpx;
+}
+.h_item:nth-child(3n+3){
+  margin-right: 0;
+}
+.new_ca{
+  width: 220px;
+  height: 220px;
+  margin: 70rpx auto;
+}
+.new_ca canvas{
+  width: 220px;
+  height: 220px;
+}

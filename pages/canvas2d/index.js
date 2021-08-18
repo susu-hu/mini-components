@@ -6,49 +6,47 @@ Page({
     canvasH:220,
     data_list:[
       {
-        value:30
+        value:0
+      },
+      {
+        value:10
+      },
+      {
+        value:20
       },
       {
         value:30
       },
       {
-        value:30
+        value:40
       },
       {
-        value:30
+        value:50
       },
       {
-        value:30
+        value:60
       },
       {
-        value:30
+        value:70
       },
       {
-        value:68
+        value:80
       },
       {
-        value:99
+        value:90
       },
       {
-        value:99
+        value:100
       },
       {
-        value:99
+        value:101
       },
-      {
-        value:99
-      },
-      {
-        value:99
-      },
-
-      
     ],//数据列表
   },
   getRings(){
     this.data.data_list.forEach((item,index)=>{
       this.canvasRing = this.selectComponent("#can"+index);
-      this.canvasRing.showCanvasRing()
+      this.canvasRing.drawCanvasRing()
     })
 
   },
@@ -83,6 +81,5 @@ Page({
     ctx.arc(110, 110, 100, 0, 2 * Math.PI, false);
     ctx.stroke(); 
   }
-
   
 })

@@ -1,0 +1,39 @@
+<!--pages/canvas2d/detail.wxml-->
+<view class="con">
+  <view class="c_item color">组件介绍：</view>
+  <view class="var c_item">
+    <view class="c_item">Canvas2D接口（type="2d"）,支持同层渲染的一个圆环进度条。（wx.createCanvasContext已废弃）</view>
+  </view>
+  <view class="c_item color">组件位置：</view>
+  <view class="var c_item">
+    <view class="c_item">/components/canvas2d-ring/index</view>
+  </view>
+  <view class="c_item color">参数：</view>
+  <view class="var c_item">
+    <view class="c_item">画布宽度：canvasWidth</view>
+    <view class="c_item">圆弧宽度: lineWidth</view>
+    <view class="c_item">圆弧颜色：lineColor</view>
+    <view class="c_item">圆环标题:title</view>
+    <view class="c_item">数值：value</view>
+    <view class="c_item">数值的颜色:valueColor</view>
+    <view class="c_item">数值文本大小(px)：f_size</view>
+    <view class="c_item">数值是否加粗:f_weight</view>
+    <view class="c_item">圆环最大值（默认100%）：maxValue</view>
+    <view class="c_item">圆环最小值（默认0%）：minValue</view>
+    <view class="c_item">数值的单位(默认%)：suffix</view>
+    <view class="c_item">圆环绘制的角度(12点方向为0,18点方向为180,0点方向为360)：startDegree</view>
+  </view>
+  <view class="c_item color">组件初始值：</view>
+  <view class="var c_item">
+    <view class="c_item">show_tip(默认为true)：当圆环数值有标题的时候，设置一个10rpx的上边距</view>
+  </view>
+  <view class="c_item color">组件方法：</view>
+  <view class="var c_item">
+    <view class="c_item">drawCanvasRing()</view>
+  </view>
+  <view class="c_item color">部分代码：</view>
+  <view class="var c_item">
+    <image src="/img/canvas2d.png"></image>
+  </view>
+</view>
+

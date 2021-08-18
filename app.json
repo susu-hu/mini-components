@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/canvas/index"
+    "pages/canvas2d/index",
+    "pages/canvas2d/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -10,6 +10,5 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

@@ -1,8 +1,5 @@
 var windWidth = wx.getSystemInfoSync().windowWidth;
 Component({
-  options: {
-    
-  },
   /**
    * 组件的属性列表
    */
@@ -37,6 +34,15 @@ Component({
       type: String,
       value: "#333"
     },
+    //值的字体的大小颜色 默认28rpx
+    f_size: {
+      type: Number,
+      value: 14
+    },
+    f_weight:{
+      type: String,
+      value: "500"
+    },
     //最大值 默认100
     maxValue: {
       type: Number,
@@ -65,27 +71,26 @@ Component({
    */
   data: {
     canvasWidth:' windWidth * 0.4',
-    isMarginTop: true
+    show_tip: true
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-    showCanvasRing() {
-      //去掉首位空格后如果标题为空，那么当前值的区域就没有margin-top值
+    drawCanvasRing() {
+      //没标题的时候去掉margin-top的值
       if (this.data.title.replace(/(^\s*)|(\s*$)/g, "").length == 0) {
         this.setData({
-          isMarginTop: false
+          show_tip: false
         })
       }
-      //作画
+      //canvas 2d
       const query = wx.createSelectorQuery().in(this);
       query.select('#myCanvas')
         .fields({ node: true , size: true})
         .exec(this.init.bind(this))
     },
-
     init(res){
       const canvas = res[0].node
       const ctx = canvas.getContext('2d');
@@ -112,7 +117,7 @@ Component({
       ctx.arc(0, 0, circle_r - 10, 0, 2 * Math.PI, true);
       ctx.stroke();
       ctx.closePath();
-      //有色彩的圆弧
+      //有色彩的圆弧      
       ctx.beginPath();
       ctx.strokeStyle=lineColor;
       ctx.lineWidth=lineWidth;
