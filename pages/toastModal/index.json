@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "toastModal":"/components/toastModal/index"
+  }
+}

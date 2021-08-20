@@ -7,7 +7,7 @@ Page({
   data: {
     page_list:[
       {
-        showmore:true,
+        showmore:false,
         name:'组件一：',
         list:[
           {
@@ -17,6 +17,20 @@ Page({
           {
             name:'组件详情',
             url:'/pages/canvas2d/detail'
+          },
+        ]
+      }, 
+      {
+        showmore:true,
+        name:'组件二：',
+        list:[
+          {
+            name:'根据wx.showModal封装的弹框组件',
+            url:'/pages/toastModal/index'
+          },
+          {
+            name:'组件详情',
+            url:'/pages/toastModal/detail'
           },
         ]
       }, 

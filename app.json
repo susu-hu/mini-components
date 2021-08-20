@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/canvas2d/index",
     "pages/canvas2d/detail",
-    "pages/canvas2d/canvasGW"
+    "pages/canvas2d/canvasGW",
+    "pages/toastModal/index",
+    "pages/toastModal/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

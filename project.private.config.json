@@ -19,8 +19,8 @@
           "scene": null
         },
         {
-          "name": "pages/canvas2d/detail",
-          "pathName": "pages/canvas2d/detail",
+          "name": "pages/toastModal/index",
+          "pathName": "pages/toastModal/index",
           "query": "",
           "scene": null
         }
