@@ -15,10 +15,13 @@
 
 1.  index:首页，有明确的页面导航，每个组件的位置，以及相关参数，皆在页面中表明（效果页面+组件详情介绍页面)
 2.  组件一：canvas2d-ring(canvas2d--圆环进度条）Canvas2D接口（type="2d"）,支持同层渲染的一个圆环进度条。（wx.createCanvasContext已废弃）
+3.  组件二：toastModal 根据wx.showModal封装的弹框组件
 
 #### 效果截图
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0818/142518_50f3af98_8576727.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0818/142602_d2417873_8576727.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0821/000421_b5321f2e_8576727.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0821/000518_812f4c4d_8576727.png "屏幕截图.png")
 
 #### 参与贡献
 
