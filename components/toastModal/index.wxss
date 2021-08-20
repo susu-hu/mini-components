@@ -1,1 +1,86 @@
 /* components/toastModal/index.wxss */
+/* 遮罩 */
+.mask{
+	position: fixed; 
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.6);
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+}
+.fixed{
+  z-index: 1003;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.modal_info{
+  width: 650rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  padding-top: 56rpx ;
+  overflow: hidden;
+  font-size: 32rpx;
+  line-height: 49rpx;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title{
+  font-weight: bold;
+  margin-bottom: 7rpx;
+}
+.modal_box{
+  width: 100%;
+  border-top:1rpx solid #999;
+  position: relative;
+  height: 112rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sure_color{
+  color: #0a9117;
+  line-height: 112rpx;
+}
+.cancel_color{
+  color: #999;
+  line-height: 112rpx;
+  /* width: 50%;
+  text-align: center; */
+}
+.modal_line{
+  position: absolute;
+  width: 1rpx;
+  height: 113rpx;
+  background: #999;
+  top: 0;
+  left: 50%;
+}
+.over_tip{
+  width: 546rpx;
+  text-align: center;
+  margin-bottom: 63rpx;
+}
+
+.inut_bx{
+  margin-top: -14px;
+  width: 546rpx;
+  border: 1px solid #ccc;
+  height: 60rpx;
+  border-radius: 30rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  margin-bottom: 40rpx;
+}
+.i_ipt{
+  width: 500rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+}

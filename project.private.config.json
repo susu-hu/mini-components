@@ -19,8 +19,8 @@
           "scene": null
         },
         {
-          "name": "pages/toastModal/index",
-          "pathName": "pages/toastModal/index",
+          "name": "pages/toastModal/detail",
+          "pathName": "pages/toastModal/detail",
           "query": "",
           "scene": null
         }

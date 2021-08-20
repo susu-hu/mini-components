@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "toastModal":"/components/toastModal/index"
-  }
+  },
+  "navigationBarTitleText": " 根据wx.showModal封装的弹框组件"
 }

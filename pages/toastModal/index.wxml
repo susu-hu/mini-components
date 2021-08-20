@@ -1,2 +1,12 @@
 <!--pages/toastModal/index.wxml-->
-<toastModal></toastModal>
+<view class="con" catchtap="showModal" data-type="s1">弹框一</view>
+<toastModal is_show="{{s1}}" content="这是是提示的内容呢"  confirmText="我知道了"  title=""></toastModal>
+
+<view class="con" catchtap="showModal" data-type="s2">弹框二</view>
+<toastModal is_show="{{s2}}" content="这是是提示的内容呢"  confirmText="确认" cancelText="取消"  bind:confirm="confirmbtn" bind:cancel="cancelBtn"></toastModal>
+
+<view class="con" catchtap="showModal" data-type="s3">弹框三</view>
+<toastModal is_show="{{s3}}" content="这是是提示的内容呢这是是提示的内容呢哈哈哈哈哈哈哈哈哈哈" cancelColor="#333" confirmColor="#FA871E"  confirmText="确认" cancelText="取消"  bind:confirm="confirmbtn" bind:cancel="cancelBtn"></toastModal>
+
+<view class="con" catchtap="showModal" data-type="s4">弹框四</view>
+<toastModal is_show="{{s4}}" title="" content="这是提示的内容呢" cancelText="" placeholderText="请输入苏苏的名称" editable="true" bind:input="getIptValue" confirmText="确定" bind:confirm="confirmbtn" bind:cancel="cancelBtn" ></toastModal>

@@ -1,2 +1,19 @@
 <!--components/toastModal/index.wxml-->
-<text>components/toastModal/index.wxml</text>
+<view class="mask" hidden="{{!is_show}}"  catchtouchmove="true"></view>
+<view class="modal_info fixed" hidden="{{!is_show}}" catchtouchmove="true">
+  <!-- 标题 -->
+  <view wx:if="{{title}}" class="title">{{title}}</view>
+  <!-- 提示内容 -->
+  <view class="over_tip">{{content}}</view>
+  <!-- input输入框 -->
+  <view wx:if="{{editable}}" class="inut_bx">
+    <input placeholder="{{placeholderText}}" class="i_ipt" value="{{inputValue}}"  bindinput="getInputValue" />
+  </view>
+  <!-- 取消和确认按钮 -->
+  <view class="modal_box" wx:if="{{cancelText || confirmText}}">
+    <view class="modal_line" wx:if="{{cancelText && confirmText}}"></view>
+    <view catchtap="cancel" class="cancel_color" wx:if="{{cancelText}}" style='color:{{cancelColor}}'>{{cancelText}}</view>
+    <view catchtap="confirm" class="sure_color" wx:if="{{confirmText}}" style='color:{{confirmColor}}'>{{confirmText}}</view>
+  </view>
+</view>
+

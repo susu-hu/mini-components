@@ -1,2 +1,33 @@
 <!--pages/toastModal/detail.wxml-->
-<text>pages/toastModal/detail.wxml</text>
+<view class="con">
+  <view class="c_item color">组件介绍：</view>
+  <view class="var c_item">
+    <view class="c_item">根据wx.showModal封装的弹框组件</view>
+  </view>
+  <view class="c_item color">组件位置：</view>
+  <view class="var c_item">
+    <view class="c_item">/components/toastModal/index</view>
+  </view>
+  <view class="c_item color">参数：</view>
+  <view class="var c_item">
+    <view class="c_item">是否展示：is_show</view>
+    <view class="c_item">标题: title</view>
+    <view class="c_item">内容：content</view>
+    <view class="c_item">取消按钮:cancelText</view>
+    <view class="c_item">确定按钮：confirmText</view>
+    <view class="c_item">取消按钮颜色:cancelColor</view>
+    <view class="c_item">确定按钮颜色：confirmColor</view>
+    <view class="c_item">是否可以编辑:editable</view>
+    <view class="c_item">input占位符：placeholderText</view>
+  </view>
+  <view class="c_item color">组件初始值：</view>
+  <view class="var c_item">
+    <view class="c_item">inputValue：input绑定的输入值</view>
+  </view>
+  <view class="c_item color">组件方法：</view>
+  <view class="var c_item">
+    <view class="c_item">cancel(),取消事件</view>
+    <view class="c_item">confirm(),确定事件</view>
+    <view class="c_item">getInputValue()，获取文字input值</view>
+  </view>
+</view>
