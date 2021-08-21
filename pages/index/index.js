@@ -21,7 +21,7 @@ Page({
         ]
       }, 
       {
-        showmore:true,
+        showmore:false,
         name:'组件二：',
         list:[
           {
@@ -31,6 +31,20 @@ Page({
           {
             name:'组件详情',
             url:'/pages/toastModal/detail'
+          },
+        ]
+      }, 
+      {
+        showmore:true,
+        name:'组件三：',
+        list:[
+          {
+            name:'根据wx.actionSheet封装的操作菜单组件',
+            url:'/pages/actionSheet/index'
+          },
+          {
+            name:'组件详情',
+            url:'/pages/actionSheet/detail'
           },
         ]
       }, 

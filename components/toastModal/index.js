@@ -50,7 +50,6 @@ Component({
    */
   data: {
     inputValue:''
-
   },
 
   /**

@@ -5,7 +5,9 @@
     "pages/canvas2d/detail",
     "pages/canvas2d/canvasGW",
     "pages/toastModal/index",
-    "pages/toastModal/detail"
+    "pages/toastModal/detail",
+    "pages/actionSheet/index",
+    "pages/actionSheet/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

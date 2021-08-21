@@ -1,0 +1,13 @@
+<!--pages/actionSheet/index.wxml-->
+<view class="con" catchtap="showModal" data-type="s1">带提示文字</view>
+<actionSheet is_show="{{s1}}" alertText="提示文字" action_list="{{list1}}" bind:cancel="cancel" bind:click="confirmClick" cancelText=""></actionSheet>
+
+<view class="con" catchtap="showModal" data-type="s2">自定义取消按钮内容（为空则无取消按钮）</view>
+<actionSheet is_show="{{s2}}" action_list="{{list1}}" bind:cancel="cancel" bind:click="confirmClick"  cancelText="我知道了"></actionSheet>
+
+<view class="con" catchtap="showModal" data-type="s3">点击蒙层可关闭</view>
+<actionSheet is_show="{{s3}}" action_list="{{list1}}" bind:cancel="cancel" alertText="提示文字" bind:click="confirmClick"  mask_is_click="true" cancelText="我知道了"></actionSheet>
+
+<view class="con" catchtap="showModal" data-type="s4">修改提示文字和选项的颜色</view>
+<actionSheet is_show="{{s4}}" action_list="{{list1}}" alertColor="#169eb6" itemColor="#2ab418" bind:cancel="cancel" alertText="提示文字" bind:click="confirmClick"  mask_is_click="true" cancelText="我知道了"></actionSheet>
+

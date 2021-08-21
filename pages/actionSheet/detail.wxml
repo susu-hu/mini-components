@@ -1,0 +1,27 @@
+<!--pages/actionSheet/detail.wxml-->
+<view class="con">
+  <view class="c_item color">组件介绍：</view>
+  <view class="var c_item">
+    <view class="c_item">根据wx.actionSheet封装的操作菜单组件</view>
+  </view>
+  <view class="c_item color">组件位置：</view>
+  <view class="var c_item">
+    <view class="c_item">/components/actionSheet/index</view>
+  </view>
+  <view class="c_item color">参数：</view>
+  <view class="var c_item">
+    <view class="c_item">是否展示：is_show</view>
+    <view class="c_item">提示文字: alertText</view>
+    <view class="c_item">提示文字颜色：alertColor</view>
+    <view class="c_item">取消按钮:cancelText</view>
+    <view class="c_item">选项列表：action_list</view>
+    <view class="c_item">蒙层是否可关闭:mask_is_click</view>
+    <view class="c_item">文字的颜色：itemColor</view>
+  </view>
+  <view class="c_item color">组件方法：</view>
+  <view class="var c_item">
+    <view class="c_item">closeModal(),关闭蒙层</view>
+    <view class="c_item">cancel(),取消事件</view>
+    <view class="c_item">handleClick()，点击每一项的事件</view>
+  </view>
+</view>

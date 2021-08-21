@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "actionSheet":"/components/actionSheet/index"
+  },
+  "navigationBarTitleText": "wx.actionSheet菜单组件'"
+}

@@ -1,0 +1,26 @@
+/* pages/actionSheet/detail.wxss */
+.con{
+  width: 710rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx;
+  margin: 20rpx auto 24rpx;
+  box-sizing: border-box;
+  padding: 30rpx;
+  font-size: 26rpx;
+  color: #666;
+}
+.c_item{
+  margin-bottom: 20rpx;
+}
+.var{
+  margin-left: 30rpx;
+}
+.color{
+  color: rgb(45, 107, 201);
+}
+.link{
+  word-break: break-all;
+}
+.link:hover{
+  color: rgb(81, 201, 45);
+}

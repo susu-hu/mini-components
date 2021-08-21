@@ -1,0 +1,92 @@
+/* components/actionSheet/index.wxss */
+/* 遮罩 */
+.mask{
+	position: fixed; 
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.6);
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+}
+.fixed{
+  z-index: 1003;
+  position: fixed;
+  bottom: 0;
+}
+.modal_info{
+  width: 750rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  color: #333333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 600rpx;
+  box-sizing: border-box;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.cancal_text{
+  width: 100%;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 35rpx;
+}
+.mt_view{
+  height: 18rpx;
+  background-color: #F3F4F5;
+  width: 100%;
+}
+.hs_data{
+  width: 100%;
+}
+.m_item{
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  color: #333333;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 30rpx;
+  color: #333333;
+  width: 100%;
+  justify-content: center;
+  height: 115rpx;
+  border-bottom: 1rpx solid #F3F4F5;
+}
+.m_item:last-child{
+  border-bottom: none;
+}
+.m_icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+/* 去掉button的默认 */
+/*  去掉button的默认样式*/
+button{
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent;
+  font-weight: normal;
+}
+button::after{
+  outline: none;
+  border: none;
+}
+.button-hover{ /*点击后样式*/
+  background: transparent;
+}
+.alertText{
+  width: 100%;
+  text-align: center;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  padding: 20rpx 40rpx;
+  border-bottom: 1rpx solid #F3F4F5;
+}
