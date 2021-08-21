@@ -5,7 +5,7 @@
   <view wx:if="{{action_list.length>0}}" class="hs_data">
     <block wx:for="{{action_list}}" wx:key="index" >
       <button class="m_item" catchtap="handleClick" data-index="{{index}}" open-type="{{item.open_type}}">
-        <image src="{{item.icon}}" class="m_icon"></image>
+        <image src="{{item.icon}}" wx:if="{{item.icon}}" class="m_icon"></image>
         <view style=" color: {{itemColor}};">{{item.name}}</view>
       </button>
     </block>
