@@ -17,6 +17,7 @@
 2.  组件一：canvas2d-ring(canvas2d--圆环进度条）Canvas2D接口（type="2d"）,支持同层渲染的一个圆环进度条。（wx.createCanvasContext已废弃）
 3.  组件二：toastModal 根据wx.showModal封装的弹框组件
 3.  组件三：actiionSheet 根据wx.showActionSheetr，可带图标，可添加open-type属性等
+4.  组件四：rating 星星评分（暂时只支持5星，后续会继续完善）
 
 #### 效果截图
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0818/142518_50f3af98_8576727.png "屏幕截图.png")
@@ -25,6 +26,7 @@
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0821/000721_3cc974e8_8576727.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0822/032114_e0e9f78c_8576727.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0822/032158_a137dde7_8576727.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0824/005849_e8665e6d_8576727.png "屏幕截图.png")
 
 #### 参与贡献
 
