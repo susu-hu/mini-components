@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "rating":"/components/rating/index"
+  },
+  "navigationBarTitleText": "星星评分"
+}

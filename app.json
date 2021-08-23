@@ -7,7 +7,9 @@
     "pages/toastModal/index",
     "pages/toastModal/detail",
     "pages/actionSheet/index",
-    "pages/actionSheet/detail"
+    "pages/actionSheet/detail",
+    "pages/rating/index",
+    "pages/rating/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

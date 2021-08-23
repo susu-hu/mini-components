@@ -35,7 +35,7 @@ Page({
         ]
       }, 
       {
-        showmore:true,
+        showmore:false,
         name:'组件三：',
         list:[
           {
@@ -45,6 +45,20 @@ Page({
           {
             name:'组件详情',
             url:'/pages/actionSheet/detail'
+          },
+        ]
+      }, 
+      {
+        showmore:true,
+        name:'组件四：',
+        list:[
+          {
+            name:'星星评分',
+            url:'/pages/rating/index'
+          },
+          {
+            name:'组件详情',
+            url:'/pages/rating/detail'
           },
         ]
       }, 

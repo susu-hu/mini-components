@@ -23,6 +23,12 @@
           "pathName": "pages/actionSheet/detail",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/rating/index",
+          "pathName": "pages/rating/index",
+          "query": "",
+          "scene": null
         }
       ]
     }
