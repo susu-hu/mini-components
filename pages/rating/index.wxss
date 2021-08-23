@@ -1,1 +1,9 @@
 /* pages/rating/index.wxss */
+page{
+  background: #fff;
+}
+.con{
+  margin: 40px auto;
+  font-size: 28rpx;
+  text-align: center;
+}

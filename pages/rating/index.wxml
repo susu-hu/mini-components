@@ -1,2 +1,20 @@
 <!--pages/rating/index.wxml-->
-<rating></rating>
+<view class="con flex-column">
+  <view style="margin-bottom: 20rpx;">设置大小（单位为rpx）</view>
+  <rating starWidth="30"></rating>
+</view>
+
+<view class="con flex-column">
+  <view style="margin-bottom: 20rpx;">只读</view>
+  <rating readOnly rating="5"></rating>
+</view>
+
+<view class="con flex-column">
+  <view style="margin-bottom: 20rpx;">显示分数</view>
+  <rating showRating starWidth="30" rating="3"></rating>
+</view>
+
+<view class="con flex-column">
+  <view style="margin-bottom: 20rpx;">绑定事件(bind:click="change")</view>
+  <rating showRating  rating="1" bind:click="change"></rating>
+</view>

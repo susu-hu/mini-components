@@ -1,1 +1,23 @@
 <!--pages/rating/detail.wxml-->
+<view class="con">
+  <view class="c_item color">组件介绍：</view>
+  <view class="var c_item">
+    <view class="c_item">星星评分（暂时只支持5星，后续会继续完善）</view>
+  </view>
+  <view class="c_item color">组件位置：</view>
+  <view class="var c_item">
+    <view class="c_item">/components/rating/index</view>
+  </view>
+  <view class="c_item color">参数：</view>
+  <view class="var c_item">
+    <view class="c_item">星星数组：stars</view>
+    <view class="c_item">只读: readOnly</view>
+    <view class="c_item">星星大小：starWidth</view>
+    <view class="c_item">显示分数:showRating</view>
+    <view class="c_item">分值：rating</view>
+  </view>
+  <view class="c_item color">组件方法：</view>
+  <view class="var c_item">
+    <view class="c_item">choseStar,评分，改变rating值</view>
+  </view>
+</view>
