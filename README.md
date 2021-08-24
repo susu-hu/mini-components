@@ -18,6 +18,7 @@
 3.  组件二：toastModal 根据wx.showModal封装的弹框组件
 3.  组件三：actiionSheet 根据wx.showActionSheetr，可带图标，可添加open-type属性等
 4.  组件四：rating 星星评分（暂时只支持5星，后续会继续完善）
+4.  组件五：swiperBox 自定义swiper组件
 
 #### 效果截图
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0818/142518_50f3af98_8576727.png "屏幕截图.png")
@@ -27,6 +28,7 @@
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0822/032114_e0e9f78c_8576727.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0822/032158_a137dde7_8576727.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0824/005849_e8665e6d_8576727.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0825/002257_f792ac4b_8576727.png "屏幕截图.png")
 
 #### 参与贡献
 
