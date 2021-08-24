@@ -1,0 +1,25 @@
+<!--pages/swiper/detail.wxml-->
+<view class="con">
+  <view class="c_item color">组件介绍：</view>
+  <view class="var c_item">
+    <view class="c_item">自定义组件swiper</view>
+  </view>
+  <view class="c_item color">组件位置：</view>
+  <view class="var c_item">
+    <view class="c_item">/components/swiperBox/index</view>
+  </view>
+  <view class="c_item color">参数：</view>
+  <view class="var c_item">
+    <view class="c_item">imgUrls:循环列表</view>
+    <view class="c_item">autoPlay: 是否自动轮播</view>
+    <view class="c_item">interval:轮播间隔</view>
+    <view class="c_item">show_dots：是否显示指示点</view>
+    <view class="c_item">dot_color:指示点默认颜色</view>
+    <view class="c_item">dot_active_color:指示点选中颜色</view>
+  </view>
+  <view class="c_item color">组件方法：</view>
+  <view class="var c_item">
+    <view class="c_item">swiperChange,切换图片</view>
+  </view>
+</view>
+

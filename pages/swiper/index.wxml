@@ -1,0 +1,5 @@
+<!--pages/swiper/index.wxml-->
+<view class="title">不展示指示灯</view>
+<swiperBox  imgUrls="{{bannerList}}" autoplay ></swiperBox>
+<view class="title">展示指示灯(可以修改指示灯颜色)</view>
+<swiperBox show_dots  imgUrls="{{bannerList}}" dot_color="#999" dot_active_color="#dd9f9f"> </swiperBox>

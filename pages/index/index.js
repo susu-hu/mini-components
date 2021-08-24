@@ -49,7 +49,7 @@ Page({
         ]
       }, 
       {
-        showmore:true,
+        showmore:false,
         name:'组件四：',
         list:[
           {
@@ -59,6 +59,20 @@ Page({
           {
             name:'组件详情',
             url:'/pages/rating/detail'
+          },
+        ]
+      }, 
+      {
+        showmore:true,
+        name:'组件五：',
+        list:[
+          {
+            name:'自定义swiper组件',
+            url:'/pages/swiper/index'
+          },
+          {
+            name:'组件详情',
+            url:'/pages/swiper/detail'
           },
         ]
       }, 

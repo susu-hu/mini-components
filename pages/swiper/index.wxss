@@ -1,0 +1,6 @@
+/* pages/swiper/index.wxss */
+.title{
+  margin: 20rpx ;
+  font-size: 25rpx;
+  font-weight: bold;
+}

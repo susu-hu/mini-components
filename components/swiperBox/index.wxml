@@ -1,0 +1,26 @@
+<!--components/swiper/index.wxml-->
+<swiper indicator-dots="false" 
+        autoplay="{{autoplay}}" 
+        interval="{{interval}}" 
+        indicator-dots="{{false}}" 
+        indicator-color='#8a8a8a' 
+        indicator-active-color='#333' 
+        circular="true" 
+        class="swiper-block" 
+        bindchange="swiperChange" 
+        previous-margin="100rpx" 
+        next-margin="100rpx" 
+        current="{{currentIndex}}">
+  <block wx:for="{{imgUrls}}" wx:for-item="item" wx:for-index="index"  wx:key="*this">
+    <swiper-item class="swiper-item ">
+      <image mode="aspectFill" src="{{item}}" class="slide-image {{currentIndex==index?'active': 'default'}}" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="dots-box own-class" wx:if="{{show_dots}}">
+  <view class="dots {{currentIndex == index ? 'dots-active' : ''}}" style="background:{{currentIndex == index ? dot_active_color:dot_color}}" wx:for="{{imgUrls}}" wx:key="*this"></view>
+</view >
+
+
+
