@@ -25,8 +25,8 @@
           "scene": null
         },
         {
-          "name": "pages/swiper/detail",
-          "pathName": "pages/swiper/detail",
+          "name": "pages/customNav/index",
+          "pathName": "pages/customNav/index",
           "query": "",
           "scene": null
         }

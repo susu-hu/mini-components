@@ -1,0 +1,13 @@
+<!--components/customNav/index.wxml-->
+<wxs src="nav.wxs" module="nav">
+</wxs>
+<view style="padding-top:{{content_offset ? bar_Height + 44 : 0}}px;">
+  <view class='navigation status-bar'>
+    <view class='goBack' bindtap='goBack' style="padding-top:{{bar_Height}}px;"  hidden='{{!show_bol}}'>      <!-- 返回按钮 -->
+      <image src='back.png'></image>
+    </view>
+    <view class="tabar {{my_class ? 'tabar2':''}}" style="padding-top:{{bar_Height}}px; background-color:{{background_color}}; {{nav.linearGradient(linear_gradient, direction, color_stops)}}">
+      <text style="color:{{title_color}};">{{title}}</text>   <!-- 标题 -->
+    </view>
+  </view>
+</view>

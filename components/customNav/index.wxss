@@ -1,0 +1,41 @@
+/* components/customNav/index.wxss */
+/* 顶部导航 */
+.navigation.status-bar {
+  width: 100%;
+  z-index: 99998;
+  position: fixed;
+  top: 0;
+}
+.navigation.status-bar .goBack{
+  position: absolute;
+  top: 7.5px;
+  font-size:12pt;
+}
+.navigation.status-bar .goBack image{
+  width: 22px;
+  height: 22px;
+  padding: 6px 20px 0 15px;
+}
+.navigation.status-bar .tabar {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+.navigation.status-bar .tabar2{
+  background: transparent !important;
+}
+.navigation.status-bar .tabar2 text{
+  color: #fff !important;
+  /* font-weight: lighter !important; */
+}
+.navigation.status-bar .tabar text {
+  height: 44px;
+  line-height: 44px;
+  /* padding: 10pt 15pt; */
+  color: #fff;
+  font-size: 17px;
+  /* font-weight: bold; */
+}
+.navigation.status-bar .tabar .active {
+  color: #fff;
+}

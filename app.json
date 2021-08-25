@@ -12,7 +12,9 @@
     "pages/rating/detail",
     "pages/swiper/index",
     "pages/swiper/detail",
-    "pages/canvas2d/index2"
+    "pages/canvas2d/index2",
+    "pages/customNav/index",
+    "pages/customNav/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

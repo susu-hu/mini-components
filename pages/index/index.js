@@ -67,7 +67,7 @@ Page({
         ]
       }, 
       {
-        showmore:true,
+        showmore:false,
         name:'组件五：',
         list:[
           {
@@ -77,6 +77,20 @@ Page({
           {
             name:'组件详情',
             url:'/pages/swiper/detail'
+          },
+        ]
+      }, 
+      {
+        showmore:true,
+        name:'组件六：',
+        list:[
+          {
+            name:'自定义头部导航栏',
+            url:'/pages/customNav/index'
+          },
+          {
+            name:'组件详情',
+            url:'/pages/customNav/detail'
           },
         ]
       }, 

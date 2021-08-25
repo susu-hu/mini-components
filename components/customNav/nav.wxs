@@ -1,0 +1,10 @@
+var linearGradient = function (isLinearGradient, direction, colorStops) {
+  if (isLinearGradient) {
+    return 'background: -webkit-linear-gradient(' + direction + ',' + colorStops.join(",") + ');';
+  }
+  return '';
+}
+
+module.exports = {
+  linearGradient: linearGradient
+}
