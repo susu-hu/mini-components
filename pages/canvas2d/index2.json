@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "canvas2d-ring":"/components/canvas2d-ring/index"
+  }
+}

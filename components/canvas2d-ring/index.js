@@ -94,6 +94,9 @@ Component({
     init(res){
       const canvas = res[0].node
       const ctx = canvas.getContext('2d');
+      canvas.requestAnimationFrame(()=>{
+        console.log('1111111111111111111111')
+      })
       const dpr = wx.getSystemInfoSync().pixelRatio
       canvas.width = res[0].width * dpr
       canvas.height = res[0].height * dpr

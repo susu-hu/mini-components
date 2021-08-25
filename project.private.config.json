@@ -13,8 +13,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/canvas2d/index",
-          "pathName": "pages/canvas2d/index",
+          "name": "pages/canvas2d/index2",
+          "pathName": "pages/canvas2d/index2",
           "query": "",
           "scene": null
         },

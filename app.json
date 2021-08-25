@@ -11,7 +11,8 @@
     "pages/rating/index",
     "pages/rating/detail",
     "pages/swiper/index",
-    "pages/swiper/detail"
+    "pages/swiper/detail",
+    "pages/canvas2d/index2"
   ],
   "window": {
     "backgroundTextStyle": "light",

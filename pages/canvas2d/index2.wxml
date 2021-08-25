@@ -1,0 +1,94 @@
+<view class="head_fix flex-row">
+  <view class="head_box flex-row" >
+    <input class="i_ipt" placeholder="搜索目标名称" placeholder-class="p_class"/>
+  </view>
+  <view catchtap="showDialog">筛选</view>
+</view>
+<view class="con" wx:if="{{hasData}}">
+  <block wx:for="{{data_list}}" wx:key="index">
+    <view class="c_item flex j_b" catchtap="toDetail">
+      <view>
+        <view class="flex c_one">
+          <view class="c_name">名称：</view>
+          <view class="c_va line_ellipsis">{{item.name}}</view>
+        </view>
+        <view class="flex c_one">
+          <view class="c_name">名称：</view>
+          <view class="c_va line_ellipsis">苏苏就是小苏苏苏就是小苏苏苏就是小苏苏苏苏</view>
+        </view>
+        <view class="flex c_one">
+          <view class="c_name">名称：</view>
+          <view class="c_va line_ellipsis">苏苏就是苏苏苏就是小苏苏苏就是小苏苏小苏苏</view>
+        </view>
+        <view class="flex c_one">
+          <view class="c_name">名称：</view>
+          <view class="c_va line_ellipsis">苏苏就是苏小苏苏</view>
+        </view>
+      </view>
+      <view class="c_charts flex-column">
+        <view class="c_cha">
+          <canvas2d-ring type="2d" id="canvasRing{{index}}" canvasWidth="{{80}}" value="{{item.value}}" lineWidth="{{3}}" title=""></canvas2d-ring>
+        </view>
+        <view><text class="c_num_has">6800</text><text>/120000</text></view>
+      </view>
+    </view>
+  </block>
+</view>
+
+<!-- 筛选弹框 -->
+<view  hidden="{{showDialog}}">
+  <view class='mask' bindtap="closePop"></view>
+  <view class="dialog">
+    <scroll-view scroll-y style="height:80%">
+      <view class="main_con">
+ 
+        <view class="dialog_item" wx:if="{{typeList.length>0}}">
+          <view class="flex-row j_b d_title">
+            <text class="d_name">时间类型:</text>
+          </view>
+          <view class="flex d_chose">
+            <block wx:for="{{typeList}}" wx:key="*this"  wx:for-index="index" wx:for-item="item">
+              <view class="d_item {{item.chosed==true?'chosed':''}}" catchtap="choseKey"  data-list="typeList"   data-index="{{index}}">{{item.type_name}}</view>
+            </block>
+          </view>
+        </view>
+       
+        <view class="dialog_item" wx:if="{{monthList.length>0}}">
+        <view class="flex-row j_b d_title">
+          <text class="d_name">月度选择:</text>
+
+          <view class="d_status" wx:if="{{show_more}}" catchtap="showMore">
+            展开
+          </view>
+          <view class="d_status" wx:if="{{show_more!=undefined && !show_more}}" catchtap="showMore">
+            收起
+          </view>
+        </view>
+        <view class="flex d_chose">
+          <block wx:for="{{monthList}}" wx:key="*this"  wx:for-index="index" wx:for-item="item">
+            <view class="d_item {{show_more?'d_item_none':''}} {{item.chosed==true?'chosed':''}}" catchtap="choseKey"  data-list="monthList"    data-index="{{index}}">{{item.value}}</view>
+          </block>
+        </view>
+        </view>
+      
+        <view class="dialog_item" wx:if="{{targetList.length>0}}">
+            <view class="flex-row j_b d_title">
+              <text class="d_name">目标分类:</text>
+            </view>
+            <view class="flex d_chose">
+              <block wx:for="{{targetList}}" wx:key="*this"  wx:for-index="index" wx:for-item="item">
+                <view class="d_item {{item.chosed==true?'chosed':''}}"  catchtap="choseKey"  data-list="targetList"  data-index="{{index}}">{{item.type_name}}</view>
+              </block>
+            </view>
+        </view>
+      </view>
+    </scroll-view>
+    <view class="d_bottom">
+      <view class="d_view">
+        <view class="line"></view>
+        <view class="btn_text" bindtap="reset">重置</view>
+        <view class="btn_text" bindtap="search">确认</view>
+      </view>
+    </view>
+  </view>
+</view>

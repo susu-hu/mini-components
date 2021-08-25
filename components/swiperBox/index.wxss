@@ -9,7 +9,9 @@ page{
 }
 
 .swiper-item{
-  overflow: unset;
+  overflow: visible;
+  /* overflow: unset;
+  overflow:inherit; */
   padding-top: 70rpx;
   padding-bottom: 20rpx;
   box-sizing: border-box;

@@ -15,6 +15,10 @@ Page({
             url:'/pages/canvas2d/index'
           },
           {
+            name:'canvas2d--圆环进度条',
+            url:'/pages/canvas2d/index2'
+          },
+          {
             name:'组件详情',
             url:'/pages/canvas2d/detail'
           },
