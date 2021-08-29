@@ -14,7 +14,10 @@
     "pages/swiper/detail",
     "pages/canvas2d/index2",
     "pages/customNav/index",
-    "pages/customNav/detail"
+    "pages/customNav/detail",
+    "components/loading/index",
+    "pages/loading/index",
+    "pages/loading/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

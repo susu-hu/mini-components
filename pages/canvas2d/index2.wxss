@@ -103,7 +103,6 @@ page {
   margin-bottom: 12rpx;
   font-size: 28rpx;
   color: #333;
-  border: 1px solid red;
 }
 
 .c_value {
