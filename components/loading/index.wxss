@@ -1,5 +1,4 @@
 /* components/loading/index.wxss */
-/* 遮罩 */
 .mask{
   position: fixed;
   z-index: 99;
@@ -24,9 +23,55 @@
 }
 .loading_tips{
   width: 100%;
-  color: #333;
   font-size: 28rpx;
   text-align: center;
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
+}
+.loading_tips  text{
+  background-image: linear-gradient(to right,#d4b81a,#32a2b1);
+  display: inline-block;
+  background-clip: text;
+  -webkit-background-clip: text;/* 用这个才能生效 */
+  color: transparent;
+}
+.six_box{
+  background: cadetblue;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  transform:translate(-50%,-50%) rotate(20deg) ;
+  top: 50%;
+  left: 50%;
+  animation: rotate 2s cubic-bezier(.42, .61, .58, .41) infinite;
+}
+.six_box:before{
+  background: cadetblue;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  content: "";
+  transform:rotate(135deg);
+}
+
+@keyframes rotate{
+  0%{
+    transform:translate(-50%,-50%) rotate(0deg);
+  }
+  100%{
+    transform:translate(-50%,-50%) rotate(360deg);
+  }
+}
+.loading_img{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 1111;
+  transform:translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
 }

@@ -1,6 +1,14 @@
 /* pages/loading/index.wxss */
 page{
   background-color: #fff;
+  box-sizing: border-box;
+}
+.con{
+  margin: 60rpx auto;
+  width: 520rpx;
+  padding: 20rpx;
+  text-align: center;
+  border: 1px solid rgb(190, 135, 135);
 }
 .yishu{
   text-shadow: 5rpx 5rpx 5rpx #FF0000;

@@ -81,7 +81,7 @@ Page({
         ]
       }, 
       {
-        showmore:true,
+        showmore:false,
         name:'组件六：',
         list:[
           {
@@ -91,6 +91,20 @@ Page({
           {
             name:'组件详情',
             url:'/pages/customNav/detail'
+          },
+        ]
+      }, 
+      {
+        showmore:true,
+        name:'组件七：',
+        list:[
+          {
+            name:'自定义loading加载动画组件',
+            url:'/pages/loading/index'
+          },
+          {
+            name:'组件详情',
+            url:'/pages/loading/detail'
           },
         ]
       }, 

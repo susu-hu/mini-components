@@ -5,7 +5,29 @@ Page({
    * 页面的初始数据
    */
   data: {
+    s1:false,
+    s2:false,
+    s3:false,
+    s4:false,
 
+  },
+  showModal(e){
+    let {type}=e.currentTarget.dataset,va='';
+    if(type=='s1'){
+      va="s1";
+    }
+    if(type=='s2'){
+      va="s2";
+    }
+    if(type=='s3'){
+      va="s3";
+    }
+    if(type=='s4'){
+      va="s4";
+    }
+    this.setData({
+      [va]:true
+    })
   },
 
   /**

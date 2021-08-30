@@ -1,14 +1,13 @@
 // components/loading/index.js
-Page({
-
+Component({
   /**
-   * 页面的初始数据
+   * 组件的属性列表
    */
-  data: {
+  properties: {
     // 是否显示弹框
     is_show:{
       type:Boolean,
-      value:true
+      value:false
     },
     l_width:{
       type:Number,
@@ -26,61 +25,32 @@ Page({
       type:String,
       value:"加载中..."
     },
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
+    imgSrc:{
+      type:String,
+      value:"https://i.postimg.cc/mgsKJGLw/susu1.jpg"
+    },
 
   },
 
   /**
-   * 生命周期函数--监听页面初次渲染完成
+   * 组件的初始数据
    */
-  onReady: function () {
+  data: {
 
   },
 
   /**
-   * 生命周期函数--监听页面显示
+   * 组件的方法列表
    */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  methods: {
+    closeModal() {
+      this.cancel();
+    },
+    cancel() {
+      this.setData({
+        is_show:false
+      })
+      this.triggerEvent('cancel');
+    },
   }
 })

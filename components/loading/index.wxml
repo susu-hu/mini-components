@@ -1,7 +1,8 @@
 <!--components/loading/index.wxml-->
 <view class="mask" hidden="{{!is_show}}"  catchtouchmove="true" catchtap="closeModal"></view>
-<view class="loading-box"  hidden="{{!is_show}}" >
-<view></view>
-<view class="loading_tips" wx:if="{{loading_text}}">{{loading_text}}</view>
+<view class="loading-box"  hidden="{{!is_show}}" catchtouchmove="true" >
+  <view class="six_box">
+    <image src="{{imgSrc}}" class="loading_img" wx:if="{{imgSrc}}"></image>
+  </view>
+  <view class="loading_tips" wx:if="{{loading_text}}"><text>{{loading_text}}</text></view>
 </view>
-
