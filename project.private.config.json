@@ -29,6 +29,12 @@
           "pathName": "pages/customNav/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/loading/index",
+          "pathName": "pages/loading/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

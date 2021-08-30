@@ -5,7 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    // 是否显示弹框
+    is_show:{
+      type:Boolean,
+      value:true
+    },
+    l_width:{
+      type:Number,
+      value:150,
+    },
+    l_height:{
+      type:Number,
+      value:150,
+    },
+    l_bg:{
+      type:String,
+      value:'#fff',
+    },
+    loading_text:{
+      type:String,
+      value:"加载中..."
+    },
   },
 
   /**

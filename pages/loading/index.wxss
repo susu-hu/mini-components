@@ -1,1 +1,7 @@
 /* pages/loading/index.wxss */
+page{
+  background-color: #fff;
+}
+.yishu{
+  text-shadow: 5rpx 5rpx 5rpx #FF0000;
+}

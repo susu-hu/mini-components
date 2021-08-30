@@ -1,2 +1,3 @@
 <!--pages/loading/index.wxml-->
-<text>pages/loading/index.wxml</text>
+<loading></loading>
+<!-- <view class="yishu">艺术字</view> -->

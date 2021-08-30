@@ -1,2 +1,7 @@
 <!--components/loading/index.wxml-->
-<text>components/loading/index.wxml</text>
+<view class="mask" hidden="{{!is_show}}"  catchtouchmove="true" catchtap="closeModal"></view>
+<view class="loading-box"  hidden="{{!is_show}}" >
+<view></view>
+<view class="loading_tips" wx:if="{{loading_text}}">{{loading_text}}</view>
+</view>
+
