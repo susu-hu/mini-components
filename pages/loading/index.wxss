@@ -3,13 +3,23 @@ page{
   background-color: #fff;
   box-sizing: border-box;
 }
+.a{
+  text-align: center;
+  height: 80px;
+  line-height: 80px;
+  margin: auto;
+  font-size: 40px;
+  -webkit-text-stroke: 3rpx #c77020;
+  color: transparent;
+  background-clip: text;
+  text-shadow: 3rpx 3rpx 3rpx #9c5c09;
+  background: -webkit-linear-gradient(to right, #a8d8ea, #a8d8ea); 
+  background: linear-gradient(to right, #a8d8ea, #a8d8ea); 
+}
 .con{
   margin: 60rpx auto;
   width: 520rpx;
   padding: 20rpx;
   text-align: center;
   border: 1px solid rgb(190, 135, 135);
-}
-.yishu{
-  text-shadow: 5rpx 5rpx 5rpx #FF0000;
 }

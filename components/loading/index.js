@@ -17,9 +17,21 @@ Component({
       type:Number,
       value:150,
     },
+    text_size:{
+      type:Number,
+      value:14,
+    },
+    six_width:{
+      type:Number,
+      value:60,
+    },
     l_bg:{
       type:String,
-      value:'#fff',
+      value:'',
+    },
+    six_bg:{
+      type:String,
+      value:'',
     },
     loading_text:{
       type:String,
@@ -27,9 +39,18 @@ Component({
     },
     imgSrc:{
       type:String,
-      value:"https://i.postimg.cc/mgsKJGLw/susu1.jpg"
+      value:""
     },
-
+    // 渐变色1
+    text_color1:{
+      type:String,
+      value:"#d4b81a"
+    },
+    //渐变色2
+    text_color2:{
+      type:String,
+      value:"#32a2b1"
+    },
   },
 
   /**

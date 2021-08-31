@@ -1,2 +1,29 @@
 <!--pages/loading/detail.wxml-->
-<text>pages/loading/detail.wxml</text>
+<view class="con">
+  <view class="c_item color">组件介绍：</view>
+  <view class="var c_item">
+    <view class="c_item">根据wx.showLoading封装的组件</view>
+  </view>
+  <view class="c_item color">组件位置：</view>
+  <view class="var c_item">
+    <view class="c_item">/components/loading/index</view>
+  </view>
+  <view class="c_item color">参数：</view>
+  <view class="var c_item">
+    <view class="c_item">是否展示：is_show</view>
+    <view class="c_item">提示文字: loading_text</view>
+    <view class="c_item">提示文字颜色：text_color1+text_color2渐变色</view>
+    <view class="c_item">提示文字大小：text_size</view>
+    <view class="c_item">loading背景框颜色：l_bg</view>
+    <view class="c_item">loading框的大小：l_width+l_height</view>
+    <view class="c_item">八角星的颜色：six_bg</view>
+    <view class="c_item">八角星的大小：six_width</view>
+    <view class="c_item">八角星中的图标：imgSrc</view>
+    
+  </view>
+  <view class="c_item color">组件方法：</view>
+  <view class="var c_item">
+    <view class="c_item">closeModal(),关闭弹框</view>
+  </view>
+</view>
+

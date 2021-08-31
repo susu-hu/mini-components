@@ -1,5 +1,8 @@
 {
   "usingComponents": {
     "loading":"/components/loading/index"
-  }
+  },
+  "navigationBarBackgroundColor": "#a8d8ea",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": " loading组件"
 }

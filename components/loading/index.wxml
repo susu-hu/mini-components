@@ -1,8 +1,9 @@
 <!--components/loading/index.wxml-->
 <view class="mask" hidden="{{!is_show}}"  catchtouchmove="true" catchtap="closeModal"></view>
-<view class="loading-box"  hidden="{{!is_show}}" catchtouchmove="true" >
-  <view class="six_box">
+<view class="loading-box"  hidden="{{!is_show}}" catchtouchmove="true" style="width:{{l_width}}px;height:{{l_height}}px;background:{{l_bg}}">
+  <view class="six_box" style="background:{{six_bg}};width:{{six_width}}px;height:{{six_width}}px">
+    <view class="six_box_before" style="background:{{six_bg}};width:{{six_width}}px;height:{{six_width}}px"></view>
     <image src="{{imgSrc}}" class="loading_img" wx:if="{{imgSrc}}"></image>
   </view>
-  <view class="loading_tips" wx:if="{{loading_text}}"><text>{{loading_text}}</text></view>
+  <view class="loading_tips" wx:if="{{loading_text}}"><text style="font-size:{{text_size}}px;background-image: linear-gradient(to right,{{text_color1}},{{text_color2}});">{{loading_text}}</text></view>
 </view>

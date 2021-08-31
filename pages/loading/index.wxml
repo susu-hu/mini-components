@@ -1,13 +1,13 @@
 <!--pages/loading/index.wxml-->
-<!-- <view class="yishu">艺术字</view> -->
+<view class="a">loading动画组件</view>
 <view class="con" catchtap="showModal" data-type="s1">动画一设置loading框的大小与颜色</view>
-<loading is_show="{{s1}}"></loading>
+<loading is_show="{{s1}}" l_bg="#222" six_bg="#ffcbcb" l_width="200" l_height="200" imgSrc="https://i.postimg.cc/mgsKJGLw/susu1.jpg" ></loading>
 
-<view class="con" catchtap="showModal" data-type="s2">动画2设置加载文字的大小与颜色</view>
-<loading is_show="{{s2}}"></loading>
+<view class="con" catchtap="showModal" data-type="s2">动画2设置加载文字的大小、文本、颜色</view>
+<loading is_show="{{s2}}" six_bg="#FA7F72" loading_text="苏苏来了"  l_width="200" l_height="200" text_size="17" text_color1="#11998e" text_color2="#38ef7d"></loading>
 
 <view class="con" catchtap="showModal" data-type="s3">动画3设置六角星的大小颜色</view>
-<loading is_show="{{s3}}"></loading>
+<loading is_show="{{s3}}" six_bg="#ffcb8e" six_width="50"></loading>
 
 <view class="con" catchtap="showModal" data-type="s4">动画4设置图标的src</view>
-<loading is_show="{{s4}}"></loading>
+<loading is_show="{{s4}}" imgSrc="https://i.postimg.cc/mgsKJGLw/susu1.jpg" ></loading>

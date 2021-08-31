@@ -46,7 +46,7 @@
   left: 50%;
   animation: rotate 2s cubic-bezier(.42, .61, .58, .41) infinite;
 }
-.six_box:before{
+.six_box_before{
   background: cadetblue;
   width: 60px;
   height: 60px;

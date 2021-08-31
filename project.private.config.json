@@ -25,8 +25,8 @@
           "scene": null
         },
         {
-          "name": "pages/loading/index",
-          "pathName": "pages/loading/index",
+          "name": "pages/loading/detail",
+          "pathName": "pages/loading/detail",
           "query": "",
           "scene": null
         },
