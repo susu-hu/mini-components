@@ -1,3 +1,2 @@
 <!--pages/customNav/index.wxml-->
-<customNav></customNav>
-aaa
+<customNav title="我的"></customNav>

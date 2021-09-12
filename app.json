@@ -17,7 +17,8 @@
     "pages/customNav/detail",
     "components/loading/index",
     "pages/loading/index",
-    "pages/loading/detail"
+    "pages/loading/detail",
+    "pages/tab/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

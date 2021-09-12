@@ -46,7 +46,6 @@ Component({
   /* 组件的方法列表 */
   methods: {
     goBack: function () {         // 返回事件
-      console.log("退后")
       wx.navigateBack({
         delta: 1,
       })

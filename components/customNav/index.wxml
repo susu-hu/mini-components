@@ -7,7 +7,7 @@
       <image src='back.png'></image>
     </view>
     <view class="tabar {{my_class ? 'tabar2':''}}" style="padding-top:{{bar_Height}}px; background-color:{{background_color}}; {{nav.linearGradient(linear_gradient, direction, color_stops)}}">
-      <text style="color:{{title_color}};">{{title}}</text>   <!-- 标题 -->
+      <text style="color:{{title_color}};">{{title}}</text> 
     </view>
   </view>
 </view>
