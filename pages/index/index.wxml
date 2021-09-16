@@ -9,7 +9,7 @@
   <block wx:for="{{page_list}}" wx:key="page_list">
     <view class="c_item " catchtap="showMore" data-index="{{index}}">
       <view class="flex-row j_b">
-        <view>{{item.name}} </view>
+        <view>组件{{index+1}} </view>
         <view class="show_img" >
           <image src="/img/good_cou02.png" class="down_arr" wx:if="{{!item.showmore}}" ></image>
           <image src="/img/clolse_down.png" class="down_arr" wx:else  ></image>

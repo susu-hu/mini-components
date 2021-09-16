@@ -35,6 +35,12 @@
           "pathName": "pages/loading/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/tab/index",
+          "pathName": "pages/tab/index",
+          "query": "",
+          "scene": null
         }
       ]
     }

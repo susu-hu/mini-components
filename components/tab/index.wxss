@@ -1,1 +1,51 @@
 /* components/tab/index.wxss */
+.hd_tab{
+  width: 750rpx;
+  height: 88rpx;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  padding:0 32rpx;
+  font-size: 28rpx;
+  color: #666;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  line-height: 88rpx;
+}
+
+.hd_tb_scroll{
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.tabNav{
+  margin-right: 74rpx;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.tabNav:last-child{
+  margin-right: 0;
+}
+
+.on{
+  color: #084099;
+  font-weight: 600;
+  position: relative;
+}
+
+.on::after{
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4rpx;
+  transform: translate(-50%);
+  width: 73rpx;
+  height: 4rpx;
+  background: #084099;
+  border-radius: 2rpx;
+}
+
+.up_kong{
+  padding-top: 88rpx;
+}

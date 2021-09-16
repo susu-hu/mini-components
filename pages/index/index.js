@@ -8,7 +8,6 @@ Page({
     page_list:[
       {
         showmore:false,
-        name:'组件一：',
         list:[
           {
             name:'canvas2d--圆环进度条',
@@ -26,7 +25,6 @@ Page({
       }, 
       {
         showmore:false,
-        name:'组件二：',
         list:[
           {
             name:'根据wx.showModal封装的弹框组件',
@@ -40,7 +38,6 @@ Page({
       }, 
       {
         showmore:false,
-        name:'组件三：',
         list:[
           {
             name:'根据wx.actionSheet封装的操作菜单组件',
@@ -54,7 +51,6 @@ Page({
       }, 
       {
         showmore:false,
-        name:'组件四：',
         list:[
           {
             name:'星星评分',
@@ -68,7 +64,6 @@ Page({
       }, 
       {
         showmore:false,
-        name:'组件五：',
         list:[
           {
             name:'自定义swiper组件',
@@ -82,7 +77,6 @@ Page({
       }, 
       {
         showmore:false,
-        name:'组件六：',
         list:[
           {
             name:'自定义头部导航栏',
@@ -95,8 +89,7 @@ Page({
         ]
       }, 
       {
-        showmore:true,
-        name:'组件七：',
+        showmore:false,
         list:[
           {
             name:'自定义loading加载动画组件',
@@ -105,6 +98,19 @@ Page({
           {
             name:'组件详情',
             url:'/pages/loading/detail'
+          },
+        ]
+      }, 
+      {
+        showmore:true,
+        list:[
+          {
+            name:'自定义scroll Tab',
+            url:'/pages/tab/index'
+          },
+          {
+            name:'组件详情',
+            url:'/pages/tab/detail'
           },
         ]
       }, 
