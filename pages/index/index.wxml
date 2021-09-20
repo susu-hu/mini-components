@@ -23,3 +23,5 @@
     </view>
   </block>
 </view>
+
+<tabBar idx="0" bind:look="show"></tabBar>

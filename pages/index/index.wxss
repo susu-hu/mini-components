@@ -1,6 +1,6 @@
 /* pages/index/index.wxss */
 page{
-  padding-bottom: 200rpx;
+  padding-bottom: 250rpx;
 }
 .head{
   position: relative;

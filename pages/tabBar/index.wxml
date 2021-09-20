@@ -1,0 +1,4 @@
+<!--pages/tabBar/index.wxml-->
+<tabBar idx="0"></tabBar>
+
+<!-- <tabBar idx="2"></tabBar> -->

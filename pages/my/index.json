@@ -2,5 +2,5 @@
   "usingComponents": {
     "tabBar":"/components/customTb"
   },
-  "navigationStyle": "custom"
+  "navigationBarTitleText": "关于我"
 }

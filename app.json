@@ -18,7 +18,9 @@
     "components/loading/index",
     "pages/loading/index",
     "pages/loading/detail",
-    "pages/tab/index"
+    "pages/tab/index",
+    "pages/tabBar/index",
+    "pages/my/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
