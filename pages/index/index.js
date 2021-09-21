@@ -119,7 +119,7 @@ Page({
         list:[
           {
             name:'自定义tabbar',
-            url:'/pages/index/index'
+            url:'/pages/tabBar/index'
           },
         ]
       }, 

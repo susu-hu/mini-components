@@ -1,4 +1,16 @@
 <!--pages/tabBar/index.wxml-->
-<tabBar idx="0"></tabBar>
-
-<!-- <tabBar idx="2"></tabBar> -->
+<view class="con">
+  <view class="c_item color">组件介绍：</view>
+  <view class="var c_item">
+    <view class="c_item">自定义Tabbar</view>
+  </view>
+  <view class="c_item color">组件位置：</view>
+  <view class="var c_item">
+    <view class="c_item">/components/tabBar/index</view>
+  </view>
+  <view class="c_item color">实现原理：</view>
+  <view class="var c_item">
+    <view class="c_item">在app.json中定义tabbar页面，并设置custom实现自定义</view>
+    <view class="c_item">自定义，并为tab设置switchTab事件跳转</view>
+  </view>
+</view>

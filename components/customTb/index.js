@@ -44,7 +44,7 @@ Component({
       if (this.data.idx == e.currentTarget.dataset.index) {
         return false
       }
-      wx.redirectTo({
+      wx.switchTab({
         url: e.currentTarget.dataset.url
       })
     },
