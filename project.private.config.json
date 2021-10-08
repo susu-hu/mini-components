@@ -41,6 +41,12 @@
           "pathName": "pages/tab/index",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/drawLiner/detail",
+          "pathName": "pages/drawLiner/detail",
+          "query": "",
+          "scene": null
         }
       ]
     }

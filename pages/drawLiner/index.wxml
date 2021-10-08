@@ -1,0 +1,25 @@
+<!--pages/drawLiner/index.wxml-->
+<view class="cu-card">
+  <view class="cu-item bg-img shadow-blur" style="background-image: linear-gradient({{item.bg_color}});"
+    bindtap="geturl" data-url="{{item.url}}" data-upname="{{item.up_name}}" data-name="{{item.title}}"
+    data-num="{{item.num}}" data-code="{{item.code}}" data-openid="{{item._openid}}" data-resourceid="{{item._id}}"
+    wx:for="{{list}}" wx:key="true">
+    <view class="cardTitle">
+      {{item.title}}
+    </view>
+    <view class="cu-list menu-avatar" style="border-radius: 25rpx;">
+      <view class="cu-item">
+        <view class="cu-avatar round lg" style="background-image:url({{item.up_img}});"></view>
+        <view class="content flex-sub">
+          <view class="text-grey">{{item.up_name}}</view>
+          <view class="text-gray text-sm flex justify-between">
+            {{item.time}}
+            <view class="text-gray text-sm">
+              下载次数：{{item.down_num}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

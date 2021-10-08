@@ -9,7 +9,7 @@
 .navigation.status-bar .goBack{
   position: absolute;
   top: 7.5px;
-  font-size:12pt;
+  font-size:12px;
 }
 .navigation.status-bar .goBack image{
   width: 22px;

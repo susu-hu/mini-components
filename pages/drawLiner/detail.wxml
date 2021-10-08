@@ -1,0 +1,11 @@
+<!--pages/drawLiner/detail.wxml-->
+<!-- 生成色卡 -->
+<view class="cu-card">
+  <view class="cu-item bg-img shadow-blur" style="background-image: linear-gradient({{color}});" bindtap="geturl"
+    data-url="{{item.url}}" data-num="{{item.num}}" data-code="{{item.code}}" data-resourceid="{{item._id}}"
+    wx:for="{{2}}" wx:key="true">
+  </view>
+</view>
+<button class="button_study bg-cyan shadow " bindtap="shengcheng">生成色卡</button>
+<view style="height:30rpx;"></view>
+<button class="button_study bg-orange shadow " bindtap="copy">复制色卡</button>

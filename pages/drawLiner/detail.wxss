@@ -1,0 +1,53 @@
+/* pages/drawLiner/detail.wxss */
+page {
+  background-color: whitesmoke;
+}
+
+.cu-card {
+  display: block;
+  overflow: hidden;
+}
+
+.cu-card>.cu-item {
+  display: block;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 25rpx;
+  height: 350rpx;
+  margin: 30rpx;
+}
+
+.cu-card>.cu-item.shadow-blur {
+  overflow: initial;
+}
+
+.shadow-blur {
+  position: relative;
+}
+
+.shadow-blur::before {
+  content: "";
+  display: block;
+  background: inherit;
+  filter: blur(10rpx);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 10rpx;
+  left: 10rpx;
+  z-index: -1;
+  opacity: 0.4;
+  transform-origin: 0 0;
+  border-radius: inherit;
+  transform: scale(1, 1);
+}
+
+.bg-cyan {
+  background-color: #1cbbb4;
+  color: white;
+}
+
+.bg-orange {
+  background-color: #f37b1d;
+  color: white;
+}
