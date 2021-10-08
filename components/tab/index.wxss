@@ -16,12 +16,13 @@
 .hd_tb_scroll{
   white-space: nowrap;
   overflow: hidden;
+  text-align: center;
 }
 
 .tabNav{
-  margin-right: 74rpx;
   display: inline-block;
   white-space: nowrap;
+  min-width: 130rpx;
 }
 
 .tabNav:last-child{

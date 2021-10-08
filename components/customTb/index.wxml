@@ -1,0 +1,12 @@
+<!--components/customTb/index.wxml-->
+<view class="tabBar">
+  <view class="cont">
+    <block wx:for="{{tabBar}}" wx:for-item="item" wx:key="tabBar">
+      <view class="item {{item.switchQr?'switchQr':''}}" catchtap="{{!item.switchQr?'goToTab':'switchQr'}}"
+        data-url="{{item.pagePath}}" data-index="{{index}}">
+        <image class="ico" src="{{idx === index ? item.selectedIconPath : item.iconPath}}"></image>
+        <view class="txt {{idx === index ? 'selectedColor' : ''}}">{{item.text}}</view>
+      </view>
+    </block>
+  </view>
+</view>

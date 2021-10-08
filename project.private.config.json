@@ -43,8 +43,13 @@
           "scene": null
         },
         {
+<<<<<<< HEAD
           "name": "pages/drawLiner/detail",
           "pathName": "pages/drawLiner/detail",
+=======
+          "name": "pages/tabBar/index",
+          "pathName": "pages/tabBar/index",
+>>>>>>> 957e9d725177db993119816880f537c82af5cfe3
           "query": "",
           "scene": null
         }

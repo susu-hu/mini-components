@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "tab":"/components/tab/index"
-  }
+  },
+  "navigationBarTitleText": "滑动Tab"
 }

@@ -1,0 +1,68 @@
+/* components/customTb/index.wxss */
+.tabBar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 20rpx;
+  color: #8A8A8A;
+  background: #fff;
+  box-shadow: 0rpx 1rpx 6rpx rgba(0,0,0,0.3);
+}
+
+.cont {
+  margin-top: 10rpx;
+  padding: 0;
+  z-index: 0;
+  height: calc(100rpx + env(safe-area-inset-bottom) / 2);
+  padding-bottom: calc(env(safe-area-inset-bottom) / 2);
+  display: flex;
+}
+
+.cont .item {
+  font-size: 24rpx;
+  position: relative;
+  flex: 1;
+  text-align: center;
+  padding: 0;
+  display: block;
+  height: auto;
+  line-height: 1;
+  margin: 0;
+  background-color: inherit;
+  overflow: initial;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont .item .ico {
+  width: 46rpx;
+  height: 46rpx;
+  margin: auto
+}
+
+.cont .item .txt{
+  margin-top: 8rpx;
+  color: #333;
+}
+
+.cont .switchQr .ico {
+  position: absolute;
+  width: 106rpx !important;
+  z-index: 2;
+  height: 106rpx !important;
+  border-radius: 50%;
+  font-size: 50rpx;
+  top: -75rpx;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding: 0;
+  border: 2px solid #598cda;
+}
+.cont .switchQr .txt{
+  margin-top: 62rpx;
+}
+
+.cont .item .selectedColor{
+  color: #598cda;
+}

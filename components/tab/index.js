@@ -6,7 +6,7 @@ Component({
   properties: {
     navList:{
       type:Array,
-      value:['132342','2']
+      value:[]
     }
 
   },
@@ -29,6 +29,7 @@ Component({
       } else {
         this.setData({ type: index})
       }
+      this.triggerEvent('change', index);
     },
 
   }

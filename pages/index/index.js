@@ -114,6 +114,15 @@ Page({
           },
         ]
       }, 
+      {
+        showmore:true,
+        list:[
+          {
+            name:'自定义tabbar',
+            url:'/pages/tabBar/index'
+          },
+        ]
+      }, 
       
     ]
 
@@ -123,6 +132,12 @@ Page({
     let {url}=e.currentTarget.dataset;
     wx.navigateTo({
       url: url,
+    })
+  },
+  show(){
+    wx.showToast({
+      title: '创作不易，star+关注一下',
+      icon:'none'
     })
   },
  
