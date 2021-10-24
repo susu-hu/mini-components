@@ -1,5 +1,4 @@
 {
-  "setting": {},
   "condition": {
     "plugin": {
       "list": []
@@ -13,43 +12,8 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/canvas2d/index2",
-          "pathName": "pages/canvas2d/index2",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/actionSheet/detail",
-          "pathName": "pages/actionSheet/detail",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/loading/detail",
-          "pathName": "pages/loading/detail",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/loading/index",
-          "pathName": "pages/loading/index",
-          "query": "",
-          "scene": null
-        },
-        {
           "name": "pages/tab/index",
           "pathName": "pages/tab/index",
-          "query": "",
-          "scene": null
-        },
-        {
-<<<<<<< HEAD
-          "name": "pages/drawLiner/detail",
-          "pathName": "pages/drawLiner/detail",
-=======
-          "name": "pages/tabBar/index",
-          "pathName": "pages/tabBar/index",
->>>>>>> 957e9d725177db993119816880f537c82af5cfe3
           "query": "",
           "scene": null
         }

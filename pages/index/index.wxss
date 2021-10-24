@@ -54,6 +54,6 @@ page{
   margin-bottom: 20rpx;
 }
 .show_img{
-  width: 300rpx;
+  width: 280rpx;
   text-align: right;
 }
