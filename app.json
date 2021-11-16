@@ -22,7 +22,8 @@
     "pages/drawLiner/index",
     "pages/drawLiner/detail",
     "pages/tabBar/index",
-    "pages/my/index"
+    "pages/my/index",
+    "pages/cal/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

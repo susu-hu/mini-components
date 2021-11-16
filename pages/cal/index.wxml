@@ -1,0 +1,2 @@
+<!--pages/cal/index.wxml-->
+<calendar bind:change="dateChange" defaultTime="" spot="{{spot}}" cal_title="嘻日历" theme_color="#e07d50"></calendar>
