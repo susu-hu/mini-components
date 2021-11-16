@@ -21,7 +21,7 @@
 5.  组件五：swiperBox 自定义swiper组件
 6.  组件六：customNav 自定义头部导航栏
 7.  组件7： loading自定义loading加载动画（根据wx.showLoading封装的弹框）
-
+8.  组件8：自定义日历组件，可设置主题色
 
 #### 效果截图
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0818/142518_50f3af98_8576727.png "屏幕截图.png")
@@ -33,6 +33,7 @@
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0824/005849_e8665e6d_8576727.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0825/002257_f792ac4b_8576727.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0831/101946_1e14190f_8576727.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2021/1117/002712_49884331_8576727.png "屏幕截图.png")
 
 #### 参与贡献
 
