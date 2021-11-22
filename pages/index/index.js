@@ -138,6 +138,16 @@ Page({
           },
         ]
       },
+      {
+        title: '自定义日期区间选组件',
+        showmore: true,
+        list: [
+          {
+            name: '日历选择组件，可设置主题色',
+            url: '/pages/dateSel/index'
+          },
+        ]
+      },
 
     ]
 
