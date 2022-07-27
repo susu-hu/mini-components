@@ -7,6 +7,8 @@
 ![输入图片说明](https://img.shields.io/badge/%E6%8A%BD%E5%A5%96%E7%BB%84%E4%BB%B6----orange)
 ![输入图片说明](https://img.shields.io/badge/%E6%97%A5%E5%8E%86%E7%BB%84%E4%BB%B6----orange)
 
+![](https://s3.bmp.ovh/imgs/2022/07/27/60d3ff9dc964b141.png)
+
 #### 介绍
 一些封装的好用且不坑的小程序组件；包括日历组件、弹框组件、actionSheet面板、loading加载动画、星星评分、canvas-2d圆环、swiper组件等等，后续会不断的完善~期待您的关注加star！！！！
 #### 安装教程
