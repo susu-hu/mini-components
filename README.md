@@ -12,21 +12,26 @@
 #### 介绍
 一些封装的好用且不坑的小程序组件；包括日历组件、弹框组件、actionSheet面板、loading加载动画、星星评分、canvas-2d圆环、swiper组件等等，后续会不断的完善~期待您的关注加star！！！！
 #### 安装教程
+1.克隆或下载压缩包
 
-1.  克隆后微信开发者打开 ，选择自己的appid或者是测试号，（不要使用本人的appid,否则无法预览)
+```
+git clone https://gitee.com/susuhhhhhh/components.git
+```
+
+2.  克隆后微信开发者打开 ，选择自己的appid或者是测试号，（不要使用本人的appid,否则无法预览)
 
 #### 页面说明
 
-1.  index:首页，有明确的页面导航，每个组件的位置，以及相关参数，皆在页面中表明（效果页面+组件详情介绍页面)
-2.  组件一：canvas2d-ring(canvas2d--圆环进度条）Canvas2D接口（type="2d"）,支持同层渲染的一个圆环进度条。（wx.createCanvasContext已废弃）
-3.  组件二：toastModal 根据wx.showModal封装的弹框组件
-3.  组件三：actiionSheet 根据wx.showActionSheet，可带图标，可添加open-type属性等
-4.  组件四：rating 星星评分（暂时只支持5星，后续会继续完善）
-5.  组件五：swiperBox 自定义swiper组件
-6.  组件六：customNav 自定义头部导航栏
-7.  组件7： loading自定义loading加载动画（根据wx.showLoading封装的弹框）
-8.  组件8：自定义日历组件，可设置主题色
-9.  组件9：自定义日期区间选择组件。可设置主题色
+- [x] 1.  index:首页，有明确的页面导航，每个组件的位置，以及相关参数，皆在页面中表明（效果页面+组件详情介绍页面)
+- [x] 2.  组件一：canvas2d-ring(canvas2d--圆环进度条）Canvas2D接口（type="2d"）,支持同层渲染的一个圆环进度条。（wx.createCanvasContext已废弃）
+- [x] 3.  组件二：toastModal 根据wx.showModal封装的弹框组件
+- [x] 3.  组件三：actiionSheet 根据wx.showActionSheet，可带图标，可添加open-type属性等
+- [x] 4.  组件四：rating 星星评分（暂时只支持5星，后续会继续完善）
+- [x] 5.  组件五：swiperBox 自定义swiper组件
+- [x] 6.  组件六：customNav 自定义头部导航栏
+- [x] 7.  组件7： loading自定义loading加载动画（根据wx.showLoading封装的弹框）
+- [x] 8.  组件8：自定义日历组件，可设置主题色
+- [x] 9.  组件9：自定义日期区间选择组件。可设置主题色
 
 #### 页面截图
 ##### 页面导航
