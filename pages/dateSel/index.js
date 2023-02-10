@@ -5,62 +5,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    sel_list: {
+      start_time: "2022-1-4",
+      end_time: "2022-1-1"
+    }
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  // 提交
+  dateSubmit(e) {
+    let {
+      end,
+      start
+    } = e.detail;
+    let {
+      sel_list
+    } = this.data;
+    sel_list.start_time = start.year + "-" + start.month + "-" + start.date;
+    sel_list.end_time = end.year + "-" + end.month + "-" + end.date;
+    this.setData({
+      sel_list,
+    })
+    console.log('当前选中', this.data.sel_list);
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  // 关闭弹框
+  closeModal() {
+    console.log('关闭')
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
-  }
 })
